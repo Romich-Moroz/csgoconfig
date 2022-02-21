@@ -1,0 +1,243 @@
+"RadioPanel.txt"
+{
+
+//"SFUI_StandardRadio"
+//"SFUI_GroupRadio"	
+//"SFUI_ReportRadio"	
+	"Groups"
+	{
+		"common"
+		{
+			"hotkey"	"0"
+			"title"	"#SFUI_CommonRadio"
+			"timeout"	"5"
+
+			"Commands"
+			{
+				"roger"
+				{
+					"hotkey"	"1"
+					"label"	"What's the plan	"
+					"cmd"	"playerchatwheel Radio.NeedPlan Plan?"
+				}
+				
+				"negative"
+				{
+					"hotkey"	"2"
+					"label"	"Bombsite A"
+					"cmd"	"playerchatwheel Radio.LocBombA A"
+				}
+				
+				"cheer"
+				{
+					"hotkey"	"3"
+					"label"	"Bombsite B"
+					"cmd"	"playerchatwheel Radio.LocBombB B"
+				}
+				
+				"holdpos"
+				{
+					"hotkey"	"4"
+					"label"	"Eco"
+					"cmd"	"playerchatwheel Radio.EcoRound Eco?"
+				}
+				
+				"followme"
+				{
+					"hotkey"	"5"
+					"label"	"Buy"
+					"cmd"	"playerchatwheel Radio.SpendRound Buy?"
+				}
+
+  				"thanks"
+				{
+					"hotkey"	"6"
+					"label"	"Lead the way"
+					"cmd"	"playerchatwheel Radio.NeedLeader Lead"
+				}
+			}
+		}
+
+		"standard"
+		{
+			"hotkey"	"1"
+			"title"	"#SFUI_CommandRadio"
+			"timeout"	"5"
+			
+			"Commands"
+			{
+				"roger"
+				{
+					"hotkey"	"1"
+					"label"	"What's the plan	"
+					"cmd"	"playerchatwheel Radio.NeedPlan Plan?"
+				}
+				
+				"negative"
+				{
+					"hotkey"	"2"
+					"label"	"Bombsite A"
+					"cmd"	"playerchatwheel Radio.LocBombA A"
+				}
+				
+				"cheer"
+				{
+					"hotkey"	"3"
+					"label"	"Bombsite B"
+					"cmd"	"playerchatwheel Radio.LocBombB B"
+				}
+				
+				"holdpos"
+				{
+					"hotkey"	"4"
+					"label"	"Eco"
+					"cmd"	"playerchatwheel Radio.EcoRound Eco"
+				}
+				
+				"followme"
+				{
+					"hotkey"	"5"
+					"label"	"Buy"
+					"cmd"	"playerchatwheel Radio.SpendRound Buy"
+				}
+				"enemydown"
+				{
+					"hotkey"	"6"
+					"label"	"#SFUI_Radio_Enemy_Down"
+					"cmd"	"enemydown"
+				}
+				"cheer"
+				{
+					"hotkey"	"7"
+					"label"	"#SFUI_Radio_Cheer"
+					"cmd"	"cheer"
+				}
+				"compliment"
+				{
+					"hotkey"	"8"
+					"label"	"#SFUI_Radio_Compliment"
+					"cmd"	"compliment"
+				}
+				"compliment"
+				{
+					"hotkey"	"9"
+					"label"	"Well played"
+					"cmd"	"playerchatwheel WonRound Nice!"
+				}
+			}
+		}
+		
+		"group"
+		{
+			"hotkey"	"2"
+			"title"	"#SFUI_StandardRadio"
+			"timeout"	"5"
+			
+			"Commands"
+			{
+				"roger"
+				{
+					"hotkey"	"1"
+					"label"	"#SFUI_Radio_Roger"
+					"cmd"	"roger"
+				}
+				
+				"negative"
+				{
+					"hotkey"	"2"
+					"label"	"#SFUI_Radio_Negative"
+					"cmd"	"negative"
+				}
+				"needrop"
+				{
+					"hotkey"	"3"
+					"label"	"Need a drop"
+					"cmd"	"needrop"
+				}
+				"thanks"
+				{
+					"hotkey"	"4"
+					"label"	"#SFUI_Radio_Thanks"
+					"cmd"	"thanks"
+				}
+				"sectorclear"
+				{
+					"hotkey"	"5"
+					"label"	"#SFUI_Radio_Sector_Clear"
+					"cmd"	"sectorclear"
+				}
+				"compliment"
+				{
+					"hotkey"	"6"
+					"label"	"Last one"
+					"cmd"	"playerchatwheel LastManStanding Rip"
+				}
+				"compliment"
+				{
+					"hotkey"	"7"
+					"label"	"Pickup the bomb"
+					"cmd"	"playerchatwheel SpottedLooseBomb Bomb"
+				}
+				"compliment"
+				{
+					"hotkey"	"8"
+					"label"	"Quiet"
+					"cmd"	"playerchatwheel Radio.NeedQuiet Quiet"
+				}
+				"enemyspot"
+				{
+					"hotkey"	"9"
+					"label"	"Sorry"	
+					"cmd"	"playerchatwheel Radio.Sorry Sorry"
+				}
+				
+				
+			}
+		}
+		
+		"report"
+		{
+			"hotkey"	"3"
+			"title"	"#SFUI_ReportRadio"
+			"timeout"	"5"
+			
+			"Commands"
+			{
+				"sectorclear"
+				{
+					"hotkey"	"1"
+					"label"	"Teamkill"
+					"cmd"	"playerchatwheel killedFriend Teamkill"
+				}
+				
+				"needbackup"
+				{
+					"hotkey"	"2"
+					"label"	"#SFUI_Radio_Need_Backup"
+					"cmd"	"needbackup"
+				}
+				
+				"takepoint"
+				{
+					"hotkey"	"3"
+					"label"	"#SFUI_Radio_Take_Point"
+					"cmd"	"takepoint"
+				}
+				
+				"sectorclear"
+				{
+					"hotkey"	"4"
+					"label"	"#SFUI_Radio_Sector_Clear"
+					"cmd"	"sectorclear"
+				}
+				
+				"inposition"
+				{
+					"hotkey"	"5"
+					"label"	"#SFUI_Radio_In_Position"
+					"cmd"	"inposition"
+				}			
+			}
+		}
+	}
+}
